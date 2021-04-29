@@ -13,18 +13,31 @@ body {
     z-index: 9;
 }
 
-.movie_head {
+.movie_head
+{
     font-size: 20px;
     padding: 6px 22px;
     border-radius: 10px;
     margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
 }
 
-.whats' new_li{
+.movie_head i
+{
+float: right;
+}
+
+.movie_text span
+{
+color: #ff7700;
+}
+
+.whatsnew {
 margin-top: 13px;
 }
 
-.what's new_li h4{
+.whatsnew h4{
 border-bottom: 1px solid white;
 padding: 8px;
 }
